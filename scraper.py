@@ -6,15 +6,7 @@ from datetime import datetime
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-PROFILE = {
-    "background": "ETH Zurich Master's in Computer Science, major in Secure & Reliable Systems. Master's thesis on grounding LLMs. Strong analytical thinking. Graduating September 2025.",
-    "interests": "AI/ML engineering, LLM research, backend/systems engineering, data science, software engineering at reputable tech companies. Open to roles adjacent to cybersecurity if they involve AI/ML.",
-    "locations": "Zurich (preferred), Madrid, other major EU cities, Latin America (Buenos Aires, São Paulo, Mexico City). EU citizen + Swiss work eligible.",
-    "salary": "Minimum 7,000 CHF/month gross (or equivalent: ~7,500 EUR for Zurich, ~3,500 EUR for Madrid/EU).",
-    "dealbreakers": "Consulting/body-shopping firms. Pure cybersecurity with no AI component. Companies with poor public image. Salary below threshold.",
-    "companyQuality": "Well-known, reputable, innovative. Top tech firms, well-funded AI startups, leading research labs, prestigious finance/tech companies.",
-    "startDate": "Available from November 2025 (taking at least 1 month vacation after September graduation).",
-}
+PROFILE = os.environ["CANDIDATE_PROFILE"]
 
 JOB_SITES = [
     "LinkedIn Jobs - machine learning engineer Zurich",
@@ -48,7 +40,7 @@ def call_groq(prompt):
 def fetch_jobs():
     prompt = f"""You are a job search agent for a highly qualified candidate. Here is their profile:
 
-{json.dumps(PROFILE, indent=2)}
+{PROFILE}
 
 Based on your knowledge of the job market in late 2025, generate 8 realistic and plausible job listings that match this candidate well. Draw from these types of sources:
 {chr(10).join(f'- {s}' for s in JOB_SITES)}
