@@ -3,8 +3,8 @@ import os
 import requests
 from datetime import datetime
 
-GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key={GEMINI_API_KEY}"
+GROQ_API_KEY = os.environ["GROQ_API_KEY"]
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 PROFILE = {
     "background": "ETH Zurich Master's in Computer Science, major in Secure & Reliable Systems. Master's thesis on grounding LLMs. Strong analytical thinking. Graduating September 2025.",
@@ -29,15 +29,21 @@ JOB_SITES = [
     "Jobs.ch - machine learning Switzerland",
 ]
 
-def call_gemini(prompt):
-    body = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.7, "maxOutputTokens": 8192}
+def call_groq(prompt):
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json"
     }
-    r = requests.post(GEMINI_URL, json=body, timeout=60)
+    body = {
+        "model": "llama-3.3-70b-versatile",
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.7,
+        "max_tokens": 4096
+    }
+    r = requests.post(GROQ_URL, json=body, headers=headers, timeout=60)
     r.raise_for_status()
     data = r.json()
-    return data["candidates"][0]["content"]["parts"][0]["text"]
+    return data["choices"][0]["message"]["content"]
 
 def fetch_jobs():
     prompt = f"""You are a job search agent for a highly qualified candidate. Here is their profile:
@@ -74,7 +80,7 @@ Score strictly:
 
 Return only the JSON array."""
 
-    text = call_gemini(prompt)
+    text = call_groq(prompt)
     # Strip any accidental markdown
     text = text.strip()
     if text.startswith("```"):
@@ -85,7 +91,7 @@ Return only the JSON array."""
     return json.loads(text)
 
 def main():
-    print("Fetching jobs via Gemini...")
+    print("Fetching jobs via Groq...")
     jobs = fetch_jobs()
     print(f"Got {len(jobs)} jobs")
 
