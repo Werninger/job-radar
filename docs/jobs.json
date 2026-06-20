@@ -1,0 +1,184 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Machine Learning Engineer",
+      "company": "Google",
+      "location": "Zurich, Switzerland",
+      "salary": "8500 CHF/month gross",
+      "source": "Google Careers",
+      "url": "https://careers.google.com",
+      "posted": "1 day ago",
+      "tags": [
+        "AI/ML",
+        "Software Engineering",
+        "Cloud"
+      ],
+      "score": 5,
+      "scoreLabel": "Perfect Match",
+      "scoreColor": "#22c55e",
+      "reasoning": "This role at Google is a perfect fit for the candidate, with a strong focus on machine learning and software engineering. The location in Zurich matches the candidate's preference, and the salary exceeds the minimum requirement. Google is a well-known and reputable company in the tech industry.",
+      "mismatches": []
+    },
+    {
+      "id": 2,
+      "title": "Research Engineer",
+      "company": "DeepMind",
+      "location": "London, UK (open to remote work in EU)",
+      "salary": "7500 EUR/month gross",
+      "source": "DeepMind Careers",
+      "url": "https://www.deepmind.com/careers",
+      "posted": "3 days ago",
+      "tags": [
+        "AI/ML",
+        "Research",
+        "Robotics"
+      ],
+      "score": 4,
+      "scoreLabel": "Strong Match",
+      "scoreColor": "#3b82f6",
+      "reasoning": "This role at DeepMind is a strong match for the candidate, with a focus on research and AI/ML. Although the location is not in Zurich, the company is open to remote work in the EU, and the salary meets the minimum requirement. DeepMind is a well-known and reputable company in the AI research industry.",
+      "mismatches": [
+        "location not in Zurich"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "ML Engineer",
+      "company": "OpenAI",
+      "location": "Remote (EU time zone)",
+      "salary": "7000 EUR/month gross",
+      "source": "OpenAI Careers",
+      "url": "https://openai.com/careers",
+      "posted": "2 weeks ago",
+      "tags": [
+        "AI/ML",
+        "Software Engineering",
+        "NLP"
+      ],
+      "score": 4,
+      "scoreLabel": "Strong Match",
+      "scoreColor": "#3b82f6",
+      "reasoning": "This role at OpenAI is a strong match for the candidate, with a focus on ML engineering and AI/ML. The company is open to remote work in the EU time zone, and the salary meets the minimum requirement. OpenAI is a well-known and reputable company in the AI industry.",
+      "mismatches": [
+        "location not in Zurich"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Backend Engineer",
+      "company": "Microsoft",
+      "location": "Zurich, Switzerland",
+      "salary": "8000 CHF/month gross",
+      "source": "Microsoft Careers",
+      "url": "https://careers.microsoft.com",
+      "posted": "1 week ago",
+      "tags": [
+        "Software Engineering",
+        "Cloud",
+        "Backend"
+      ],
+      "score": 3,
+      "scoreLabel": "Good Match",
+      "scoreColor": "#f59e0b",
+      "reasoning": "This role at Microsoft is a good match for the candidate, with a focus on backend engineering and software development. The location in Zurich matches the candidate's preference, and the salary exceeds the minimum requirement. However, the role does not have a strong focus on AI/ML.",
+      "mismatches": [
+        "role not focused on AI/ML"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Data Scientist",
+      "company": "UBS",
+      "location": "Zurich, Switzerland",
+      "salary": "7500 CHF/month gross",
+      "source": "UBS Careers",
+      "url": "https://www.ubs.com/careers",
+      "posted": "2 weeks ago",
+      "tags": [
+        "Data Science",
+        "Finance",
+        "Machine Learning"
+      ],
+      "score": 3,
+      "scoreLabel": "Good Match",
+      "scoreColor": "#f59e0b",
+      "reasoning": "This role at UBS is a good match for the candidate, with a focus on data science and machine learning. The location in Zurich matches the candidate's preference, and the salary meets the minimum requirement. However, the role is in the finance industry, which may not be the candidate's first choice.",
+      "mismatches": [
+        "industry not preferred"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Research Engineer",
+      "company": "Mistral AI",
+      "location": "Paris, France",
+      "salary": "6500 EUR/month gross",
+      "source": "Mistral AI Careers",
+      "url": "https://mistral.ai/careers",
+      "posted": "1 month ago",
+      "tags": [
+        "AI/ML",
+        "Research",
+        "Robotics"
+      ],
+      "score": 2,
+      "scoreLabel": "Partial Match",
+      "scoreColor": "#ef4444",
+      "reasoning": "This role at Mistral AI is a partial match for the candidate, with a focus on research and AI/ML. However, the location is not in Zurich, and the salary is below the minimum requirement.",
+      "mismatches": [
+        "location not in Zurich",
+        "salary below minimum"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Machine Learning Engineer",
+      "company": "Siemens",
+      "location": "Munich, Germany",
+      "salary": "6000 EUR/month gross",
+      "source": "Siemens Careers",
+      "url": "https://www.siemens.com/careers",
+      "posted": "2 months ago",
+      "tags": [
+        "AI/ML",
+        "Software Engineering",
+        "Industrial Automation"
+      ],
+      "score": 2,
+      "scoreLabel": "Partial Match",
+      "scoreColor": "#ef4444",
+      "reasoning": "This role at Siemens is a partial match for the candidate, with a focus on machine learning and software engineering. However, the location is not in Zurich, and the salary is below the minimum requirement.",
+      "mismatches": [
+        "location not in Zurich",
+        "salary below minimum"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "AI Engineer",
+      "company": "Bosch",
+      "location": "Stuttgart, Germany",
+      "salary": "5500 EUR/month gross",
+      "source": "Bosch Careers",
+      "url": "https://www.bosch.com/careers",
+      "posted": "3 months ago",
+      "tags": [
+        "AI/ML",
+        "Software Engineering",
+        "Automotive"
+      ],
+      "score": 1,
+      "scoreLabel": "Weak Match",
+      "scoreColor": "#ef4444",
+      "reasoning": "This role at Bosch is a weak match for the candidate, with a focus on AI engineering and software development. However, the location is not in Zurich, the salary is below the minimum requirement, and the role is in the automotive industry, which may not be the candidate's first choice.",
+      "mismatches": [
+        "location not in Zurich",
+        "salary below minimum",
+        "industry not preferred"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-06-20T18:22:31.564635Z",
+  "totalSites": 10
+}
