@@ -4,7 +4,7 @@ import requests
 from datetime import datetime
 
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
 
 PROFILE = {
     "background": "ETH Zurich Master's in Computer Science, major in Secure & Reliable Systems. Master's thesis on grounding LLMs. Strong analytical thinking. Graduating September 2025.",
