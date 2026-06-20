@@ -1,0 +1,49 @@
+name: Job Radar
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 7am UTC = 9am Zurich time
+    - cron: '0 16 * * *'  # 4pm UTC = 6pm Zurich time
+  workflow_dispatch:       # allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run scraper
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scraper.py
+
+      - name: Commit jobs.json
+        run: |
+          git config user.name "Job Radar Bot"
+          git config user.email "bot@job-radar"
+          git add docs/jobs.json
+          git diff --staged --quiet || git commit -m "Update jobs $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
