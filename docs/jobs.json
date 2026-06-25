@@ -5,39 +5,39 @@
       "title": "Machine Learning Engineer",
       "company": "Google",
       "location": "Zurich, Switzerland",
-      "salary": "8500 CHF/month",
+      "salary": "8000 CHF/month",
       "source": "Google Careers",
       "url": "https://careers.google.com/",
       "posted": "1 day ago",
       "tags": [
-        "Machine Learning",
         "AI",
-        "Backend Engineering"
+        "ML",
+        "Backend"
       ],
       "score": 5,
       "scoreLabel": "Perfect Match",
       "scoreColor": "#22c55e",
-      "reasoning": "This role at Google is a perfect match for your skills and interests, with a strong focus on machine learning and AI. The company is well-known and reputable, and the location is your preferred choice of Zurich. The salary is also above your minimum requirement.",
+      "reasoning": "This role at Google is a perfect fit for your skills and interests, with a strong focus on machine learning and a competitive salary. The company is well-known and reputable, and the location is your preferred choice. I think you'd be a great fit for this team.",
       "mismatches": []
     },
     {
       "id": 2,
       "title": "Research Engineer",
       "company": "DeepMind",
-      "location": "London, UK (with possible relocation to Zurich)",
-      "salary": "8000 CHF/month",
+      "location": "London, UK",
+      "salary": "7500 CHF/month",
       "source": "DeepMind Careers",
       "url": "https://www.deepmind.com/careers",
       "posted": "3 days ago",
       "tags": [
-        "Research",
         "AI",
+        "Research",
         "LLM"
       ],
       "score": 4,
       "scoreLabel": "Strong Match",
       "scoreColor": "#3b82f6",
-      "reasoning": "This role at DeepMind is a strong match for your research interests and skills, with a focus on AI and LLM. The company is well-known and reputable, and the salary is above your minimum requirement. However, the location is not your preferred choice, but relocation to Zurich is possible.",
+      "reasoning": "This role at DeepMind is a strong match for your skills and interests, with a focus on research and AI. The company is well-known and reputable, but the location is not your preferred choice. However, it's still in the EU and the salary is competitive.",
       "mismatches": [
         "location"
       ]
@@ -46,86 +46,88 @@
       "id": 3,
       "title": "ML Engineer",
       "company": "OpenAI",
-      "location": "Remote (with possible relocation to Madrid)",
-      "salary": "7500 CHF/month",
+      "location": "Zurich, Switzerland",
+      "salary": "7000 CHF/month",
       "source": "OpenAI Careers",
       "url": "https://openai.com/careers",
       "posted": "2 days ago",
       "tags": [
-        "Machine Learning",
         "AI",
-        "Remote"
+        "ML",
+        "LLM"
       ],
       "score": 4,
       "scoreLabel": "Strong Match",
       "scoreColor": "#3b82f6",
-      "reasoning": "This role at OpenAI is a strong match for your skills and interests, with a focus on machine learning and AI. The company is well-known and reputable, and the salary is above your minimum requirement. The location is remote, but relocation to Madrid is possible, which is one of your preferred locations.",
-      "mismatches": [
-        "location"
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Data Scientist",
-      "company": "ETH Zurich",
-      "location": "Zurich, Switzerland",
-      "salary": "7000 CHF/month",
-      "source": "ETH Z\u00fcrich Career Center",
-      "url": "https://www.ethz.ch/en/the-eth-zurich/career-at-eth-zurich.html",
-      "posted": "1 week ago",
-      "tags": [
-        "Data Science",
-        "Research",
-        "AI"
-      ],
-      "score": 3,
-      "scoreLabel": "Good Match",
-      "scoreColor": "#f59e0b",
-      "reasoning": "This role at ETH Zurich is a good match for your skills and interests, with a focus on data science and research. The company is well-known and reputable, and the location is your preferred choice of Zurich. However, the salary is below your minimum requirement.",
+      "reasoning": "This role at OpenAI is a strong match for your skills and interests, with a focus on machine learning and AI. The company is well-known and reputable, and the location is your preferred choice. However, the salary is slightly below your minimum requirement.",
       "mismatches": [
         "salary"
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Backend Engineer",
       "company": "Mistral AI",
       "location": "Paris, France",
       "salary": "8000 CHF/month",
       "source": "Mistral AI Jobs",
       "url": "https://mistral.ai/careers",
-      "posted": "2 days ago",
+      "posted": "1 day ago",
       "tags": [
-        "Backend Engineering",
+        "Backend",
         "AI",
-        "Research"
+        "ML"
       ],
       "score": 3,
       "scoreLabel": "Good Match",
       "scoreColor": "#f59e0b",
-      "reasoning": "This role at Mistral AI is a good match for your skills and interests, with a focus on backend engineering and AI. The company is well-known and reputable, and the salary is above your minimum requirement. However, the location is not one of your preferred choices.",
+      "reasoning": "This role at Mistral AI is a good match for your skills and interests, with a focus on backend engineering and AI. The company is well-known and reputable, and the salary is competitive. However, the location is not your preferred choice and the role is not a perfect fit for your interests.",
       "mismatches": [
-        "location"
+        "location",
+        "role fit"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Data Scientist",
+      "company": "ETH Zurich",
+      "location": "Zurich, Switzerland",
+      "salary": "6500 CHF/month",
+      "source": "ETH Z\u00fcrich Career Center",
+      "url": "https://eth-gethired.ch",
+      "posted": "3 days ago",
+      "tags": [
+        "Data Science",
+        "AI",
+        "Research"
+      ],
+      "score": 2,
+      "scoreLabel": "Partial Match",
+      "scoreColor": "#ef4444",
+      "reasoning": "This role at ETH Zurich is a partial match for your skills and interests, with a focus on data science and research. The company is well-known and reputable, and the location is your preferred choice. However, the salary is below your minimum requirement and the role is not a perfect fit for your interests.",
+      "mismatches": [
+        "salary",
+        "role fit"
       ]
     },
     {
       "id": 6,
       "title": "Research Engineer",
       "company": "Anthropic",
-      "location": "London, UK",
-      "salary": "8500 CHF/month",
+      "location": "Berlin, Germany",
+      "salary": "7500 CHF/month",
       "source": "Anthropic Careers",
-      "url": "https://www.anthropic.com/careers",
-      "posted": "1 day ago",
+      "url": "https://anthropic.com/careers",
+      "posted": "2 days ago",
       "tags": [
-        "Research",
         "AI",
+        "Research",
         "LLM"
       ],
-      "score": 3,
-      "scoreLabel": "Good Match",
-      "scoreColor": "#f59e0b",
-      "reasoning": "This role at Anthropic is a good match for your research interests and skills, with a focus on AI and LLM. The company is well-known and reputable, and the salary is above your minimum requirement. However, the location is not one of your preferred choices.",
+      "score": 4,
+      "scoreLabel": "Strong Match",
+      "scoreColor": "#3b82f6",
+      "reasoning": "This role at Anthropic is a strong match for your skills and interests, with a focus on research and AI. The company is well-known and reputable, and the salary is competitive. However, the location is not your preferred choice.",
       "mismatches": [
         "location"
       ]
@@ -135,47 +137,42 @@
       "title": "Machine Learning Engineer",
       "company": "Microsoft",
       "location": "Madrid, Spain",
-      "salary": "7500 CHF/month",
+      "salary": "8000 CHF/month",
       "source": "LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/",
-      "posted": "3 days ago",
+      "url": "https://www.linkedin.com/jobs",
+      "posted": "1 day ago",
       "tags": [
-        "Machine Learning",
         "AI",
-        "Backend Engineering"
+        "ML",
+        "Backend"
       ],
-      "score": 2,
-      "scoreLabel": "Partial Match",
-      "scoreColor": "#ef4444",
-      "reasoning": "This role at Microsoft is a partial match for your skills and interests, with a focus on machine learning and AI. The company is well-known and reputable, and the location is one of your preferred choices. However, the salary is below your minimum requirement.",
-      "mismatches": [
-        "salary"
-      ]
+      "score": 4,
+      "scoreLabel": "Strong Match",
+      "scoreColor": "#3b82f6",
+      "reasoning": "This role at Microsoft is a strong match for your skills and interests, with a focus on machine learning and AI. The company is well-known and reputable, and the salary is competitive. The location is one of your preferred choices.",
+      "mismatches": []
     },
     {
       "id": 8,
-      "title": "Data Scientist",
-      "company": "ABB",
+      "title": "AI Engineer",
+      "company": "Amazon",
       "location": "Zurich, Switzerland",
-      "salary": "6500 CHF/month",
-      "source": "Jobs.ch",
-      "url": "https://www.abb.com/careers",
-      "posted": "1 week ago",
+      "salary": "9000 CHF/month",
+      "source": "Indeed Switzerland",
+      "url": "https://www.indeed.ch",
+      "posted": "2 days ago",
       "tags": [
-        "Data Science",
-        "Research",
-        "AI"
+        "AI",
+        "ML",
+        "Cloud"
       ],
-      "score": 1,
-      "scoreLabel": "Weak Match",
-      "scoreColor": "#ef4444",
-      "reasoning": "This role at ABB is a weak match for your skills and interests, with a focus on data science and research. The company is well-known and reputable, and the location is your preferred choice of Zurich. However, the salary is below your minimum requirement, and the role is not a perfect fit for your interests.",
-      "mismatches": [
-        "salary",
-        "role fit"
-      ]
+      "score": 5,
+      "scoreLabel": "Perfect Match",
+      "scoreColor": "#22c55e",
+      "reasoning": "This role at Amazon is a perfect fit for your skills and interests, with a focus on AI and machine learning. The company is well-known and reputable, and the location is your preferred choice. The salary is highly competitive.",
+      "mismatches": []
     }
   ],
-  "lastUpdated": "2026-06-24T17:47:35.179612Z",
+  "lastUpdated": "2026-06-25T10:16:33.891471Z",
   "totalSites": 10
 }
