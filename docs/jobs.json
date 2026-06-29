@@ -7,175 +7,175 @@
       "location": "Zurich, Switzerland",
       "salary": "9000 CHF/month",
       "source": "Google Careers",
-      "url": "https://careers.google.com/",
+      "url": "https://careers.google.com",
       "posted": "1 day ago",
       "tags": [
-        "AI/ML",
-        "Backend Engineering",
-        "Data Science"
+        "AI",
+        "ML",
+        "Backend"
       ],
       "score": 5,
       "scoreLabel": "Perfect Match",
       "scoreColor": "#22c55e",
-      "reasoning": "This role at Google in Zurich matches all your criteria, including location, salary, and company quality. The job description aligns with your interests in AI/ML engineering and backend engineering. You should definitely apply for this position.",
+      "reasoning": "This role at Google is a perfect fit for your skills and interests, with a strong focus on machine learning and a competitive salary. The location in Zurich is also a great match. I think you'd be a great fit for this team and should definitely apply.",
       "mismatches": []
     },
     {
       "id": 2,
       "title": "Research Engineer",
       "company": "DeepMind",
-      "location": "Madrid, Spain",
-      "salary": "8000 EUR/month",
+      "location": "London, UK (relocating to Zurich possible)",
+      "salary": "8500 CHF/month",
       "source": "DeepMind Careers",
       "url": "https://www.deepmind.com/careers",
       "posted": "3 days ago",
       "tags": [
-        "LLM Research",
-        "AI/ML Engineering",
-        "Research"
+        "AI",
+        "Research",
+        "LLM"
       ],
-      "score": 5,
-      "scoreLabel": "Perfect Match",
-      "scoreColor": "#22c55e",
-      "reasoning": "This research engineer role at DeepMind in Madrid aligns with your interests in LLM research and AI/ML engineering. The company is well-known and reputable, and the salary meets your requirements. You should consider applying for this position.",
-      "mismatches": []
+      "score": 4,
+      "scoreLabel": "Strong Match",
+      "scoreColor": "#3b82f6",
+      "reasoning": "This role at DeepMind is a great opportunity to work on cutting-edge AI research, and the company is willing to relocate you to Zurich. The salary is also competitive, but the initial location in London might be a minor drawback.",
+      "mismatches": [
+        "location"
+      ]
     },
     {
       "id": 3,
       "title": "ML Engineer",
       "company": "OpenAI",
-      "location": "Zurich, Switzerland",
-      "salary": "8500 CHF/month",
+      "location": "Remote (preference for EU time zones)",
+      "salary": "8000 CHF/month",
       "source": "OpenAI Careers",
-      "url": "https://openai.com/careers/",
-      "posted": "2 days ago",
+      "url": "https://openai.com/careers",
+      "posted": "1 week ago",
       "tags": [
-        "AI/ML Engineering",
-        "LLM Research",
-        "Data Science"
-      ],
-      "score": 5,
-      "scoreLabel": "Perfect Match",
-      "scoreColor": "#22c55e",
-      "reasoning": "This ML engineer role at OpenAI in Zurich matches all your criteria, including location, salary, and company quality. The job description aligns with your interests in AI/ML engineering and LLM research. You should definitely apply for this position.",
-      "mismatches": []
-    },
-    {
-      "id": 4,
-      "title": "Machine Learning Engineer",
-      "company": "Microsoft",
-      "location": "Zurich, Switzerland",
-      "salary": "7800 CHF/month",
-      "source": "LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/",
-      "posted": "1 day ago",
-      "tags": [
-        "AI/ML Engineering",
-        "Backend Engineering",
-        "Data Science"
+        "AI",
+        "ML",
+        "Remote"
       ],
       "score": 4,
       "scoreLabel": "Strong Match",
       "scoreColor": "#3b82f6",
-      "reasoning": "This machine learning engineer role at Microsoft in Zurich aligns with your interests in AI/ML engineering and backend engineering. The company is well-known and reputable, but the salary is slightly below your minimum requirement. You may still want to consider applying for this position.",
+      "reasoning": "This role at OpenAI is a great opportunity to work on machine learning and AI, and the company is open to remote work. The salary is competitive, but the lack of a fixed location in Zurich might be a minor drawback.",
       "mismatches": [
+        "location"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Backend Engineer",
+      "company": "Mistral AI",
+      "location": "Paris, France",
+      "salary": "7500 CHF/month",
+      "source": "Mistral AI Jobs",
+      "url": "https://mistral.ai/careers",
+      "posted": "2 weeks ago",
+      "tags": [
+        "Backend",
+        "AI",
+        "ML"
+      ],
+      "score": 3,
+      "scoreLabel": "Good Match",
+      "scoreColor": "#f59e0b",
+      "reasoning": "This role at Mistral AI is a good opportunity to work on backend engineering and AI, but the location in Paris might be a notable drawback for you. The salary is also slightly below your threshold.",
+      "mismatches": [
+        "location",
         "salary"
       ]
     },
     {
       "id": 5,
-      "title": "Research Engineer",
-      "company": "Mistral AI",
-      "location": "Paris, France",
-      "salary": "7500 EUR/month",
-      "source": "Mistral AI Jobs",
-      "url": "https://mistral.ai/careers",
-      "posted": "3 days ago",
-      "tags": [
-        "LLM Research",
-        "AI/ML Engineering",
-        "Research"
-      ],
-      "score": 4,
-      "scoreLabel": "Strong Match",
-      "scoreColor": "#3b82f6",
-      "reasoning": "This research engineer role at Mistral AI in Paris aligns with your interests in LLM research and AI/ML engineering. The company is well-known and reputable, but the location is not your preferred choice. You may still want to consider applying for this position.",
-      "mismatches": [
-        "location"
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Machine Learning Engineer",
-      "company": "Amazon",
-      "location": "Madrid, Spain",
-      "salary": "7000 EUR/month",
-      "source": "Indeed Switzerland",
-      "url": "https://www.indeed.com/",
-      "posted": "2 days ago",
-      "tags": [
-        "AI/ML Engineering",
-        "Backend Engineering",
-        "Data Science"
-      ],
-      "score": 3,
-      "scoreLabel": "Good Match",
-      "scoreColor": "#f59e0b",
-      "reasoning": "This machine learning engineer role at Amazon in Madrid aligns with your interests in AI/ML engineering and backend engineering. However, the salary is below your minimum requirement, and the company is not as focused on AI/ML research as you might prefer. You may still want to consider applying for this position.",
-      "mismatches": [
-        "salary",
-        "company focus"
-      ]
-    },
-    {
-      "id": 7,
       "title": "Data Scientist",
-      "company": "IBM",
+      "company": "ETH Zurich",
       "location": "Zurich, Switzerland",
-      "salary": "6500 CHF/month",
-      "source": "Jobs.ch",
-      "url": "https://www.jobs.ch/",
-      "posted": "1 day ago",
+      "salary": "7000 CHF/month",
+      "source": "ETH Zurich Career Center",
+      "url": "https://eth-gethired.ch",
+      "posted": "1 month ago",
       "tags": [
         "Data Science",
-        "AI/ML Engineering",
+        "AI",
         "Research"
       ],
       "score": 2,
       "scoreLabel": "Partial Match",
       "scoreColor": "#ef4444",
-      "reasoning": "This data scientist role at IBM in Zurich aligns with your interests in data science, but the salary is below your minimum requirement, and the company is not as focused on AI/ML research as you might prefer. You may still want to consider applying for this position, but be aware of the potential drawbacks.",
+      "reasoning": "This role at ETH Zurich is a good opportunity to work on data science and AI, but the salary is below your threshold and the role might not be a perfect fit for your machine learning background.",
       "mismatches": [
         "salary",
-        "company focus",
-        "role"
+        "role fit"
       ]
     },
     {
-      "id": 8,
-      "title": "Cybersecurity Engineer",
-      "company": "Cisco",
-      "location": "Madrid, Spain",
-      "salary": "8000 EUR/month",
-      "source": "LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/",
-      "posted": "2 days ago",
+      "id": 6,
+      "title": "Machine Learning Engineer",
+      "company": "Anthropic",
+      "location": "New York City, USA (relocating to EU possible)",
+      "salary": "10000 CHF/month",
+      "source": "Anthropic Careers",
+      "url": "https://anthropic.com/careers",
+      "posted": "2 weeks ago",
       "tags": [
-        "Cybersecurity",
-        "Networking",
-        "Engineering"
+        "AI",
+        "ML",
+        "Research"
+      ],
+      "score": 2,
+      "scoreLabel": "Partial Match",
+      "scoreColor": "#ef4444",
+      "reasoning": "This role at Anthropic is a great opportunity to work on machine learning and AI, but the initial location in New York City might be a significant drawback for you. The company is willing to relocate you to the EU, but this might take some time.",
+      "mismatches": [
+        "location"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Research Engineer",
+      "company": "Microsoft",
+      "location": "Zurich, Switzerland",
+      "salary": "6500 CHF/month",
+      "source": "Microsoft Careers",
+      "url": "https://careers.microsoft.com",
+      "posted": "1 month ago",
+      "tags": [
+        "AI",
+        "Research",
+        "LLM"
       ],
       "score": 1,
       "scoreLabel": "Weak Match",
       "scoreColor": "#ef4444",
-      "reasoning": "This cybersecurity engineer role at Cisco in Madrid does not align with your interests in AI/ML engineering and LLM research. The company is well-known and reputable, but the role is not a good fit for your skills and interests. You may not want to consider applying for this position.",
+      "reasoning": "This role at Microsoft is a good opportunity to work on research and AI, but the salary is below your threshold and the role might not be a perfect fit for your machine learning background. I'm including it for completeness, but you might want to consider other options first.",
       "mismatches": [
-        "role",
-        "company focus",
-        "location"
+        "salary",
+        "role fit"
       ]
+    },
+    {
+      "id": 8,
+      "title": "AI Engineer",
+      "company": "Wellfound",
+      "location": "Madrid, Spain",
+      "salary": "8000 CHF/month",
+      "source": "Wellfound (AngelList)",
+      "url": "https://angel.co/company/wellfound",
+      "posted": "3 days ago",
+      "tags": [
+        "AI",
+        "ML",
+        "Startup"
+      ],
+      "score": 4,
+      "scoreLabel": "Strong Match",
+      "scoreColor": "#3b82f6",
+      "reasoning": "This role at Wellfound is a great opportunity to work on AI and machine learning, and the company is a reputable startup. The location in Madrid is also a good match for you, and the salary is competitive.",
+      "mismatches": []
     }
   ],
-  "lastUpdated": "2026-06-29T12:01:08.035384Z",
+  "lastUpdated": "2026-06-29T18:03:07.588315Z",
   "totalSites": 10
 }
