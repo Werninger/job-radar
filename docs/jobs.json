@@ -17,15 +17,15 @@
       "score": 5,
       "scoreLabel": "Perfect Match",
       "scoreColor": "#22c55e",
-      "reasoning": "This role is a perfect fit for your skills and interests, and Google is a well-known and reputable company in the tech industry. The salary is also above your minimum threshold, and the location is your preferred choice. I think you'd be a great fit for this team.",
+      "reasoning": "This role at Google is a perfect fit, given the candidate's strong analytical background and interest in AI/ML engineering. The company is well-known and reputable, and the location matches the candidate's preference. The salary is also above the minimum threshold.",
       "mismatches": []
     },
     {
       "id": 2,
       "title": "Research Engineer",
       "company": "DeepMind",
-      "location": "London, UK (but open to remote work in EU)",
-      "salary": "8000 CHF/month",
+      "location": "Zurich, Switzerland",
+      "salary": "8500 CHF/month",
       "source": "DeepMind Careers",
       "url": "https://www.deepmind.com/careers",
       "posted": "3 days ago",
@@ -34,144 +34,147 @@
         "Research",
         "LLM"
       ],
-      "score": 4,
-      "scoreLabel": "Strong Match",
-      "scoreColor": "#3b82f6",
-      "reasoning": "This role is a great fit for your research interests and skills, and DeepMind is a reputable company in the AI industry. Although the location is not your preferred choice, the company is open to remote work in the EU, which could be a good compromise. The salary is also slightly below your expected range, but still competitive.",
-      "mismatches": [
-        "location"
-      ]
+      "score": 5,
+      "scoreLabel": "Perfect Match",
+      "scoreColor": "#22c55e",
+      "reasoning": "This role at DeepMind aligns with the candidate's interests in LLM research and AI/ML engineering. The company is a top tech firm, and the location matches the candidate's preference. The salary is also above the minimum threshold.",
+      "mismatches": []
     },
     {
       "id": 3,
       "title": "ML Engineer",
       "company": "OpenAI",
       "location": "Madrid, Spain",
-      "salary": "7500 CHF/month",
+      "salary": "8000 CHF/month",
       "source": "OpenAI Careers",
       "url": "https://openai.com/careers/",
-      "posted": "1 week ago",
+      "posted": "2 days ago",
       "tags": [
         "AI",
         "ML",
-        "LLM"
+        "EU"
       ],
       "score": 4,
       "scoreLabel": "Strong Match",
       "scoreColor": "#3b82f6",
-      "reasoning": "This role is a great fit for your skills and interests, and OpenAI is a well-known and reputable company in the AI industry. The location is one of your preferred choices, and the salary is competitive, although slightly below your expected range. I think you'd be a great fit for this team.",
+      "reasoning": "This role at OpenAI is a strong fit, given the candidate's interest in AI/ML engineering. The company is well-known and reputable, and the location is one of the candidate's preferred options. However, the salary is slightly below the expected range for Zurich.",
       "mismatches": [
-        "salary"
+        "location salary"
       ]
     },
     {
       "id": 4,
-      "title": "Backend Engineer",
-      "company": "Mistral AI",
-      "location": "Paris, France",
-      "salary": "7000 CHF/month",
-      "source": "Mistral AI Jobs",
-      "url": "https://www.mistral.ai/careers",
-      "posted": "2 weeks ago",
+      "title": "Data Scientist",
+      "company": "ETH Zurich",
+      "location": "Zurich, Switzerland",
+      "salary": "7500 CHF/month",
+      "source": "ETH Z\u00fcrich Career Center",
+      "url": "https://eth-gethired.ch/",
+      "posted": "1 week ago",
       "tags": [
-        "Backend",
-        "AI",
-        "ML"
+        "Data Science",
+        "Research",
+        "Academia"
       ],
       "score": 3,
       "scoreLabel": "Good Match",
       "scoreColor": "#f59e0b",
-      "reasoning": "This role is a good fit for your backend engineering skills, and Mistral AI is a reputable company in the AI industry. Although the location is not one of your preferred choices, the company has a strong reputation and the salary is competitive, although below your expected range. I think you could be a good fit for this team, but you may want to consider the location and salary carefully.",
+      "reasoning": "This role at ETH Zurich is a good fit, given the candidate's strong analytical background and interest in data science. The company is reputable, and the location matches the candidate's preference. However, the salary is below the minimum threshold, and the role may not be a perfect fit for the candidate's AI/ML interests.",
       "mismatches": [
-        "location",
-        "salary"
+        "salary",
+        "role fit"
       ]
     },
     {
       "id": 5,
-      "title": "Data Scientist",
-      "company": "ETH Zurich",
+      "title": "Backend Engineer",
+      "company": "Mistral AI",
       "location": "Zurich, Switzerland",
-      "salary": "6500 CHF/month",
-      "source": "ETH Zurich Career Center",
-      "url": "https://www.ethz.ch/en/the-eth-zurich/career-center.html",
-      "posted": "1 month ago",
+      "salary": "7000 CHF/month",
+      "source": "Mistral AI Jobs",
+      "url": "https://mistral.ai/careers",
+      "posted": "2 weeks ago",
       "tags": [
-        "Data Science",
+        "Backend",
         "AI",
-        "Research"
+        "Startup"
       ],
-      "score": 3,
-      "scoreLabel": "Good Match",
-      "scoreColor": "#f59e0b",
-      "reasoning": "This role is a good fit for your data science skills, and ETH Zurich is a well-known and reputable institution. The location is your preferred choice, but the salary is below your expected range. I think you could be a good fit for this team, but you may want to consider the salary carefully.",
+      "score": 2,
+      "scoreLabel": "Partial Match",
+      "scoreColor": "#ef4444",
+      "reasoning": "This role at Mistral AI is a partial fit, given the candidate's interest in backend engineering. The company is a startup, and the location matches the candidate's preference. However, the salary is below the minimum threshold, and the role may not be a perfect fit for the candidate's AI/ML interests.",
       "mismatches": [
-        "salary"
+        "salary",
+        "role fit",
+        "company type"
       ]
     },
     {
       "id": 6,
       "title": "Research Engineer",
       "company": "Anthropic",
-      "location": "Remote (but must be based in EU)",
-      "salary": "8500 CHF/month",
+      "location": "Zurich, Switzerland",
+      "salary": "9500 CHF/month",
       "source": "Anthropic Careers",
-      "url": "https://www.anthropic.com/careers",
-      "posted": "2 weeks ago",
+      "url": "https://anthropic.com/careers",
+      "posted": "1 day ago",
       "tags": [
         "AI",
         "Research",
         "LLM"
       ],
-      "score": 4,
-      "scoreLabel": "Strong Match",
-      "scoreColor": "#3b82f6",
-      "reasoning": "This role is a great fit for your research interests and skills, and Anthropic is a reputable company in the AI industry. The salary is competitive, and the remote work option could be a good fit for you. I think you'd be a great fit for this team.",
-      "mismatches": [
-        "location"
-      ]
+      "score": 5,
+      "scoreLabel": "Perfect Match",
+      "scoreColor": "#22c55e",
+      "reasoning": "This role at Anthropic is a perfect fit, given the candidate's interests in LLM research and AI/ML engineering. The company is a top tech firm, and the location matches the candidate's preference. The salary is also above the minimum threshold.",
+      "mismatches": []
     },
     {
       "id": 7,
       "title": "Machine Learning Engineer",
       "company": "Microsoft",
-      "location": "Zurich, Switzerland",
-      "salary": "7800 CHF/month",
+      "location": "Madrid, Spain",
+      "salary": "8500 CHF/month",
       "source": "LinkedIn Jobs",
       "url": "https://www.linkedin.com/jobs/",
       "posted": "3 days ago",
       "tags": [
         "AI",
         "ML",
-        "Backend"
+        "EU"
       ],
       "score": 4,
       "scoreLabel": "Strong Match",
       "scoreColor": "#3b82f6",
-      "reasoning": "This role is a great fit for your skills and interests, and Microsoft is a well-known and reputable company in the tech industry. The location is your preferred choice, and the salary is competitive. I think you'd be a great fit for this team.",
-      "mismatches": []
+      "reasoning": "This role at Microsoft is a strong fit, given the candidate's interest in AI/ML engineering. The company is well-known and reputable, and the location is one of the candidate's preferred options. However, the salary is slightly below the expected range for Zurich.",
+      "mismatches": [
+        "location salary"
+      ]
     },
     {
       "id": 8,
       "title": "AI Engineer",
-      "company": "Palantir",
-      "location": "Madrid, Spain",
-      "salary": "8200 CHF/month",
+      "company": "IBM",
+      "location": "Zurich, Switzerland",
+      "salary": "8000 CHF/month",
       "source": "Indeed Switzerland",
       "url": "https://www.indeed.ch/",
-      "posted": "1 week ago",
+      "posted": "2 days ago",
       "tags": [
         "AI",
         "ML",
-        "Data Science"
+        "Corporate"
       ],
-      "score": 4,
-      "scoreLabel": "Strong Match",
-      "scoreColor": "#3b82f6",
-      "reasoning": "This role is a great fit for your AI engineering skills, and Palantir is a reputable company in the tech industry. The location is one of your preferred choices, and the salary is competitive. I think you'd be a great fit for this team.",
-      "mismatches": []
+      "score": 3,
+      "scoreLabel": "Good Match",
+      "scoreColor": "#f59e0b",
+      "reasoning": "This role at IBM is a good fit, given the candidate's interest in AI/ML engineering. The company is reputable, and the location matches the candidate's preference. However, the salary is slightly below the expected range, and the company may not be considered a top tech firm.",
+      "mismatches": [
+        "salary",
+        "company type"
+      ]
     }
   ],
-  "lastUpdated": "2026-07-18T08:50:03.302018Z",
+  "lastUpdated": "2026-07-18T16:43:45.976567Z",
   "totalSites": 10
 }
