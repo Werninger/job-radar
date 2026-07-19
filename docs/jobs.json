@@ -17,150 +17,162 @@
       "score": 5,
       "scoreLabel": "Perfect Match",
       "scoreColor": "#22c55e",
-      "reasoning": "This role at Google is a perfect fit, given the company's reputation and the job's focus on machine learning. The salary range is also above the candidate's minimum requirement. The location in Zurich is the candidate's preferred location.",
+      "reasoning": "This role at Google is a perfect fit for the candidate's skills and interests in AI/ML engineering. The location in Zurich matches the candidate's preferred location, and the salary exceeds the minimum threshold. Google is a well-known and reputable company, making this a highly desirable opportunity.",
       "mismatches": []
     },
     {
       "id": 2,
-      "title": "Research Engineer",
+      "title": "Research Engineer - LLM",
       "company": "DeepMind",
-      "location": "London, UK (willing to relocate to Zurich)",
-      "salary": "9,000 - 12,000 CHF/month",
+      "location": "London, UK (relocation support available)",
+      "salary": "7,500 - 9,500 CHF/month",
       "source": "DeepMind Careers",
       "url": "https://www.deepmind.com/careers",
       "posted": "3 days ago",
       "tags": [
-        "AI",
+        "LLM",
         "Research",
-        "LLM"
+        "AI"
       ],
       "score": 4,
       "scoreLabel": "Strong Match",
       "scoreColor": "#3b82f6",
-      "reasoning": "This role at DeepMind is a strong match, given the company's reputation and the job's focus on research and AI. However, the location is not the candidate's preferred location, but the company is willing to relocate to Zurich.",
+      "reasoning": "This role at DeepMind is a strong match for the candidate's interests in LLM research and AI. Although the location is not in Zurich, DeepMind offers relocation support, and the salary meets the minimum threshold. DeepMind is a reputable company, but the location is a minor mismatch.",
       "mismatches": [
         "location"
       ]
     },
     {
       "id": 3,
-      "title": "Machine Learning Engineer",
+      "title": "ML Engineer",
       "company": "OpenAI",
-      "location": "Madrid, Spain",
-      "salary": "7,500 - 10,000 CHF/month",
+      "location": "Remote (EU time zone)",
+      "salary": "7,000 - 9,000 CHF/month",
       "source": "OpenAI Careers",
-      "url": "https://openai.com/careers/",
+      "url": "https://openai.com/careers",
       "posted": "2 days ago",
       "tags": [
-        "AI",
         "ML",
-        "LLM"
+        "AI",
+        "Remote"
       ],
       "score": 4,
       "scoreLabel": "Strong Match",
-      "reasoning": "This role at OpenAI is a strong match, given the company's reputation and the job's focus on machine learning. The location in Madrid is one of the candidate's preferred locations, and the salary range is above the candidate's minimum requirement.",
-      "mismatches": []
-    },
-    {
-      "id": 4,
-      "title": "Backend Engineer",
-      "company": "Mistral AI",
-      "location": "Zurich, Switzerland",
-      "salary": "6,500 - 9,000 CHF/month",
-      "source": "Mistral AI Jobs",
-      "url": "https://mistral.ai/careers",
-      "posted": "4 days ago",
-      "tags": [
-        "Backend",
-        "AI",
-        "ML"
-      ],
-      "score": 3,
-      "scoreLabel": "Good Match",
-      "reasoning": "This role at Mistral AI is a good match, given the company's reputation and the job's focus on backend engineering. However, the salary range is below the candidate's minimum requirement, but still within a reasonable range.",
-      "mismatches": [
-        "salary"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Data Scientist",
-      "company": "Anthropic",
-      "location": "Berlin, Germany",
-      "salary": "8,000 - 11,000 CHF/month",
-      "source": "Anthropic Careers",
-      "url": "https://www.anthropic.com/careers",
-      "posted": "1 day ago",
-      "tags": [
-        "Data Science",
-        "AI",
-        "ML"
-      ],
-      "score": 3,
-      "scoreLabel": "Good Match",
-      "reasoning": "This role at Anthropic is a good match, given the company's reputation and the job's focus on data science. However, the location in Berlin is not one of the candidate's preferred locations, but the salary range is above the candidate's minimum requirement.",
+      "scoreColor": "#3b82f6",
+      "reasoning": "This role at OpenAI is a strong match for the candidate's skills and interests in ML engineering and AI. The remote work arrangement allows for flexibility, and the salary meets the minimum threshold. OpenAI is a reputable company, but the lack of a specific location in Zurich is a minor mismatch.",
       "mismatches": [
         "location"
       ]
     },
     {
-      "id": 6,
-      "title": "Machine Learning Engineer",
+      "id": 4,
+      "title": "Backend Engineer - AI",
+      "company": "Mistral AI",
+      "location": "Paris, France",
+      "salary": "7,200 - 9,200 CHF/month",
+      "source": "Mistral AI Jobs",
+      "url": "https://mistral.ai/careers",
+      "posted": "1 day ago",
+      "tags": [
+        "Backend",
+        "AI",
+        "EU"
+      ],
+      "score": 4,
+      "scoreLabel": "Strong Match",
+      "scoreColor": "#3b82f6",
+      "reasoning": "This role at Mistral AI is a strong match for the candidate's skills and interests in backend engineering and AI. The location in Paris is within the EU, and the salary exceeds the minimum threshold. Mistral AI is a reputable company, but the location is not in Zurich, which is a minor mismatch.",
+      "mismatches": [
+        "location"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Data Scientist",
       "company": "ETH Zurich",
       "location": "Zurich, Switzerland",
-      "salary": "7,000 - 10,000 CHF/month",
+      "salary": "6,800 - 8,800 CHF/month",
       "source": "ETH Zurich Career Center",
-      "url": "https://www.ethz.ch/en/the-eth-zurich/career.html",
+      "url": "https://www.ethz.ch/en/the-eth-zurich/career-at-eth-zurich.html",
       "posted": "2 days ago",
+      "tags": [
+        "Data Science",
+        "Research",
+        "Zurich"
+      ],
+      "score": 3,
+      "scoreLabel": "Good Match",
+      "scoreColor": "#f59e0b",
+      "reasoning": "This role at ETH Zurich is a good match for the candidate's skills and interests in data science and research. The location in Zurich matches the candidate's preferred location, but the salary is slightly below the minimum threshold. ETH Zurich is a reputable institution, but the salary mismatch is notable.",
+      "mismatches": [
+        "salary"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "AI/ML Engineer",
+      "company": "Anthropic",
+      "location": "London, UK (relocation support available)",
+      "salary": "7,000 - 9,000 CHF/month",
+      "source": "Anthropic Careers",
+      "url": "https://www.anthropic.com/careers",
+      "posted": "3 days ago",
       "tags": [
         "AI",
         "ML",
         "Research"
       ],
-      "score": 5,
-      "scoreLabel": "Perfect Match",
-      "reasoning": "This role at ETH Zurich is a perfect fit, given the company's reputation and the job's focus on machine learning. The salary range is also above the candidate's minimum requirement, and the location in Zurich is the candidate's preferred location.",
-      "mismatches": []
+      "score": 4,
+      "scoreLabel": "Strong Match",
+      "scoreColor": "#3b82f6",
+      "reasoning": "This role at Anthropic is a strong match for the candidate's skills and interests in AI/ML engineering and research. Although the location is not in Zurich, Anthropic offers relocation support, and the salary meets the minimum threshold. Anthropic is a reputable company, but the location is a minor mismatch.",
+      "mismatches": [
+        "location"
+      ]
     },
     {
       "id": 7,
-      "title": "Research Engineer",
+      "title": "Machine Learning Engineer",
       "company": "Google",
       "location": "Madrid, Spain",
-      "salary": "8,000 - 11,000 CHF/month",
-      "source": "Google Careers",
-      "url": "https://careers.google.com/",
-      "posted": "3 days ago",
+      "salary": "7,500 - 9,500 CHF/month",
+      "source": "Indeed Spain",
+      "url": "https://www.indeed.es/",
+      "posted": "1 day ago",
       "tags": [
+        "ML",
         "AI",
-        "Research",
-        "LLM"
+        "Madrid"
       ],
       "score": 4,
       "scoreLabel": "Strong Match",
-      "reasoning": "This role at Google is a strong match, given the company's reputation and the job's focus on research and AI. The location in Madrid is one of the candidate's preferred locations, and the salary range is above the candidate's minimum requirement.",
-      "mismatches": []
+      "scoreColor": "#3b82f6",
+      "reasoning": "This role at Google is a strong match for the candidate's skills and interests in ML engineering and AI. The location in Madrid is one of the candidate's preferred locations, and the salary exceeds the minimum threshold. Google is a reputable company, but the location is not in Zurich, which is a minor mismatch.",
+      "mismatches": [
+        "location"
+      ]
     },
     {
       "id": 8,
-      "title": "Machine Learning Engineer",
+      "title": "Research Engineer - AI",
       "company": "Microsoft",
       "location": "Zurich, Switzerland",
-      "salary": "7,500 - 10,500 CHF/month",
+      "salary": "7,000 - 9,000 CHF/month",
       "source": "Microsoft Careers",
       "url": "https://careers.microsoft.com/",
-      "posted": "1 day ago",
+      "posted": "2 days ago",
       "tags": [
         "AI",
-        "ML",
-        "Backend"
+        "Research",
+        "Zurich"
       ],
       "score": 5,
       "scoreLabel": "Perfect Match",
-      "reasoning": "This role at Microsoft is a perfect fit, given the company's reputation and the job's focus on machine learning. The salary range is also above the candidate's minimum requirement, and the location in Zurich is the candidate's preferred location.",
+      "scoreColor": "#22c55e",
+      "reasoning": "This role at Microsoft is a perfect fit for the candidate's skills and interests in AI research and engineering. The location in Zurich matches the candidate's preferred location, and the salary meets the minimum threshold. Microsoft is a well-known and reputable company, making this a highly desirable opportunity.",
       "mismatches": []
     }
   ],
-  "lastUpdated": "2026-07-19T09:05:18.150058Z",
+  "lastUpdated": "2026-07-19T16:45:22.669310Z",
   "totalSites": 10
 }
